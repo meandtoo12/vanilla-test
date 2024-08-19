@@ -5,6 +5,10 @@
         "allowedRoles": ["anonymous"]
       },
       {
+        "route": "/logout",
+        "redirect": "/.auth/logout?post_logout_redirect_uri=https://blue-mud-074726d10.5.azurestaticapps.net/.auth/purge/aad"
+      },      
+      {
         "route": "/anonymous/*",
         "allowedRoles": ["anonymous"]
       },
